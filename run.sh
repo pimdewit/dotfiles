@@ -8,6 +8,10 @@ brew install trash git node wget
 # install quicklook plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+nvm install node
+
 # Install some good stuff
 brew cask install pycharm sublime-text alfred iterm2 google-chrome firefox imageoptim imagealpha
 
