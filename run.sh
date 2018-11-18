@@ -9,7 +9,7 @@ brew install trash git node wget
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
 
 # Install some good stuff
-brew cask install dark-mode pycharm sublime-text alfred iterm2 google-chrome google-chrome-canary firefox imageoptim imagealpha
+brew cask install pycharm sublime-text alfred iterm2 google-chrome firefox imageoptim imagealpha
 
 # create subl shortcut for Sublime Text
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
@@ -34,3 +34,5 @@ git config --global core.excludesfile ~/.gitignore-global
 
 source ~/.zshrc
 echo "Dotfiles installed."
+
+xcode-select --install
